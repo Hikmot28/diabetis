@@ -11,4 +11,4 @@ import seaborn as sns
 #convert file to dataframe
 
 df = pd.read_csv("diabetes.csv")
-st.write(df.head())
+st.write(df.head(5))
