@@ -12,4 +12,4 @@ import seaborn as sns
 
 df = pd.read_csv("diabetes.csv")
 st.markdown("# First Five Argument")
-st.wrte(df.head())
+st.write(df.head())
