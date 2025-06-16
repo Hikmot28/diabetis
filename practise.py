@@ -11,5 +11,6 @@ import seaborn as sns
 #convert file to dataframe
 
 df = pd.read_csv("diabetes.csv")
+
 st.markdown("# First Five Argument")
-st.write(df.head(5))
+st.table(df.head(5))
